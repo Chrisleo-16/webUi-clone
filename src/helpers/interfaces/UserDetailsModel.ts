@@ -1,0 +1,29 @@
+export interface UserDetailsModel {
+    user_id: string;
+    username: string;
+    email: string;
+    email_verified: boolean;
+    phoneNo_verified: boolean;
+    OtpCode: string;
+    otpExip: string;
+    isVerified: boolean;
+    isAccountActive: boolean;
+    is2FaEnabled: boolean;
+    dateRegistrated: string;
+    password: string;
+    auth_provider: string;
+    phone: string;
+    two_factor_secret: string;
+    phoneno_verified: string;
+    isaccountactive: boolean;
+    is2faenabled: boolean;
+    dateregistered: string;
+    phone_number: string;
+    otpcode: string;
+    otpexp: string;
+    id: number;
+    fullname: string;
+    profile_pic_url: string;
+    user_bio: string;
+    question: string;
+}

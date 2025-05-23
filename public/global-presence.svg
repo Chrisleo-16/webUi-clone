@@ -1,0 +1,32 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="5" cy="5" r="1" fill="white" opacity="0.8"/>
+    </pattern>
+  </defs>
+  
+  <!-- North America -->
+  <path d="M110,80 Q180,60 220,70 T300,90 Q340,100 350,80 L340,140 Q300,160 250,150 T180,140 Q130,130 110,80Z" fill="url(#dots)"/>
+  
+  <!-- South America -->
+  <path d="M200,200 Q230,190 260,200 T280,220 L260,280 Q230,290 210,280 T200,200Z" fill="url(#dots)"/>
+  
+  <!-- Europe -->
+  <path d="M380,70 Q420,60 460,70 T520,90 L510,130 Q470,140 430,130 T380,70Z" fill="url(#dots)"/>
+  
+  <!-- Africa -->
+  <path d="M400,150 Q450,140 500,150 T550,180 L530,250 Q480,260 430,250 T400,150Z" fill="url(#dots)"/>
+  
+  <!-- Asia -->
+  <path d="M530,60 Q600,40 670,60 T750,100 L730,200 Q660,220 590,200 T530,60Z" fill="url(#dots)"/>
+  
+  <!-- Australia -->
+  <path d="M650,220 Q690,210 730,220 T750,260 L730,290 Q690,300 670,290 T650,220Z" fill="url(#dots)"/>
+  
+  <!-- Yellow highlight dots for Africa -->
+  <circle cx="450" cy="180" r="3" fill="#FFD700"/>
+  <circle cx="470" cy="200" r="3" fill="#FFD700"/>
+  <circle cx="490" cy="190" r="3" fill="#FFD700"/>
+  <circle cx="460" cy="210" r="3" fill="#FFD700"/>
+  <circle cx="480" cy="170" r="3" fill="#FFD700"/>
+</svg>

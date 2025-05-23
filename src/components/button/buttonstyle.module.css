@@ -1,0 +1,27 @@
+.button
+{
+    padding: 15px 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: .2rem;
+    position: relative;
+    color: var(--light-color);
+    
+}
+
+.bg_xmr{
+    /* background: linear-gradient(to right, #FF6600 50%, #333 50%); */
+    background: linear-gradient(89.85deg, #FF6600 49.69%, #4C4C4C 49.7%);
+}
+.bg_btc{
+    background-color: #f89a29;
+  
+}
+
+
+
+
+

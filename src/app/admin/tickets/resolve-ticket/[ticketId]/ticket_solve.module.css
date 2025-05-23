@@ -1,0 +1,117 @@
+.message_bubble {
+  background: linear-gradient(145deg, #ffffff, #f5f7fa);
+  border-radius: 16px;
+  box-shadow: 5px 5px 15px #e6e6e6, -5px -5px 15px #ffffff;
+  padding: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  margin: 15px 0;
+  position: relative;
+}
+
+.message_bubble:hover {
+  transform: translateY(-2px);
+  box-shadow: 8px 8px 20px #e6e6e6, -8px -8px 20px #ffffff;
+}
+
+.circle {
+  width: 15rem;
+  height: 15rem;
+  position: absolute;
+  border-radius: 50%;
+  z-index: -3;
+
+  & {
+    left: -20%;
+    top: -12%;
+    background: linear-gradient(var(--secondary_theme), orange);
+  }
+}
+
+.container {
+  background: white;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.messages_container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(155, 155, 155, 0.5) transparent;
+}
+
+.messages_container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.messages_container::-webkit-scrollbar-track {
+  background: #f5f7fa;
+  border-radius: 10px;
+}
+
+.messages_container::-webkit-scrollbar-thumb {
+  background-color: #e2e8f0;
+  border-radius: 20px;
+}
+
+.gradient_bg {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+  color: white;
+}
+
+.action_button {
+  background: linear-gradient(135deg, #4f46e5, #4338ca);
+  color: white;
+  height: full;
+  transition: all 0.3s ease;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(79, 70, 229, 0.2);
+}
+
+.action_button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(79, 70, 229, 0.3);
+}
+
+.status_badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.status_open {
+  background: linear-gradient(135deg, #10b981, #059669);
+  color: white;
+}
+
+.status_closed {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+}
+
+/* .status_solved {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+} */
+
+.table_header {
+  background: #f8fafc;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.form_input {
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 12px;
+  transition: all 0.3s ease;
+}
+
+.form_input:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
